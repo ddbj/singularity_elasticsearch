@@ -31,4 +31,4 @@ http://localhost:9200/ をウェブブラウザで開いてください。ポー
 
 ## kibana へのアクセス
 
-http://localhost:5601/ をウェブブラウザで開いてください。
+http://localhost:5601/ をウェブブラウザで開いてください。ポート番号は kibana.yml 内の設定により変化します。
