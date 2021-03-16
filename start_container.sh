@@ -12,8 +12,7 @@ if [ ! -e ${CONTAINER_HOME}/elasticsearch_data ]; then
 fi
 
 if [ ! -e ${CONTAINER_HOME}/elasticsearch_config ]; then
-    mkdir ${CONTAINER_HOME}/elasticsearch_config
-    singularity exec ${IMAGE} cp /opt/elasticsearch/config/* ${CONTAINER_HOME}/elasticsearch_config/
+    singularity exec ${IMAGE} cp -r /opt/elasticsearch/config ${CONTAINER_HOME}/elasticsearch_config
 fi
 
 if [ ! -e ${CONTAINER_HOME}/kibana_data ]; then
