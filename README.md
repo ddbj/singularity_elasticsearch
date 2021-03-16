@@ -12,7 +12,7 @@ $ sudo singularity build elasticsearch.sif Singularity
 $ bash start_container.sh
 ```
 
-いくつかのディレクトリとelasticsearch、kibanaの設定ファイルが作成されます。以下のコマンドで一度singularity instanceを停止し、elasticsearch_config以下の設定ファイルとkibana.ymlを適宜編集してください。
+いくつかのディレクトリとelasticsearch、kibanaの設定ファイルが作成されます。以下のコマンドで一度singularity instanceを停止し、elasticsearch_config以下の設定ファイルとkibana.ymlを適宜編集してください。そのまま使用するとデフォルトの設定になります。
 
 ```
 $ singularity instnace stop elasticsearch
